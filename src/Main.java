@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        int intOperandA = 2;
-        int intOperandB = 33;
+        int intOperandA = 33;
+        int intOperandB = 2;
         int intSum = 342;
         int intProduct = 393;
         int intDifference = 94;
@@ -17,5 +17,11 @@ public class Main {
         System.out.println("The sum using ints of " + intOperandA + " and " + intOperandB + " is " + intSum);
         intDifference = intOperandA - intOperandB;
         System.out.println("The difference using the ints of " + intOperandA + " and " + intOperandB + " is " + intDifference);
+        intProduct = intOperandA * intOperandB;
+        System.out.println("The product using the ints of " + intOperandA + " and " + intOperandB + " is " + intProduct);
+        intQuotient = intOperandA / intOperandB;
+        System.out.println("The quotient of the ints " + intOperandA + " and " + intOperandB + " is " + intQuotient);
+        intModulo = intOperandA % intOperandB;
+        System.out.println("The modulo of the ints " + intOperandA + " and " + intOperandB + " is " + intModulo);
     }
 }
