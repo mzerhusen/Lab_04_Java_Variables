@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class Main {
     public static void main(String[] args) {
         int intOperandA = 33;
@@ -13,6 +15,7 @@ public class Main {
         double doubleProduct = 9210.2;
         double doubleDifference = 512.32;
         double doubleQuotient = 1.11111;
+
         intSum = intOperandA + intOperandB;
         System.out.println("The sum using ints of " + intOperandA + " and " + intOperandB + " is " + intSum);
         intDifference = intOperandA - intOperandB;
@@ -23,5 +26,14 @@ public class Main {
         System.out.println("The quotient of the ints " + intOperandA + " and " + intOperandB + " is " + intQuotient);
         intModulo = intOperandA % intOperandB;
         System.out.println("The modulo of the ints " + intOperandA + " and " + intOperandB + " is " + intModulo);
+        doubleSum = doubleOperandA + doubleOperandB;
+        System.out.println("The sum of the doubles " + doubleOperandA + " and " + doubleOperandB + " is " + doubleSum);
+        doubleDifference = doubleOperandA - doubleOperandB;
+        System.out.println("The difference of the doubles " + doubleOperandA + " and " + doubleOperandB + " is " + doubleDifference);
+        doubleProduct = doubleOperandA * doubleOperandB;
+        System.out.println("The product of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleProduct);
+        doubleQuotient= doubleOperandA / doubleOperandB;
+        System.out.println("The quotient of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleQuotient);
+
     }
 }
