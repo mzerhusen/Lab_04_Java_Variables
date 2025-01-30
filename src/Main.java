@@ -15,5 +15,7 @@ public class Main {
         double doubleQuotient = 1.11111;
         intSum = intOperandA + intOperandB;
         System.out.println("The sum using ints of " + intOperandA + " and " + intOperandB + " is " + intSum);
+        intDifference = intOperandA - intOperandB;
+        System.out.println("The difference using the ints of " + intOperandA + " and " + intOperandB + " is " + intDifference);
     }
 }
