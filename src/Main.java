@@ -1,5 +1,3 @@
-import java.sql.SQLOutput;
-
 public class Main {
     public static void main(String[] args) {
         int intOperandA = 33;
@@ -15,6 +13,13 @@ public class Main {
         double doubleProduct = 0.0;
         double doubleDifference = 0.0;
         double doubleQuotient = 0.0;
+        int familyKids = 1;
+        boolean isRaining = false;
+        double gasPrice = 3.50;
+        int favNumber = 4;
+        int shoeSize = 13;
+        String birthMonth = "April";
+        String fullName = "Michael Zerhusen";
 
         intSum = intOperandA + intOperandB;
         System.out.println("The sum of " + intOperandA + " and " + intOperandB + " is " + intSum);
